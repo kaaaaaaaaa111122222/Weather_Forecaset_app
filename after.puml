@@ -1,0 +1,33 @@
+@startuml
+title WeatherForecastApp クラス図
+
+class WeatherForecastApp {
+    - TARGET_URL : String
+    + main(args : String[]) : void
+}
+
+class URL
+class URI
+class HttpURLConnection
+class BufferedReader
+class InputStreamReader
+class JSONArray
+class JSONObject
+class LocalDateTime
+class DateTimeFormatter
+class ArrayList
+class List
+
+WeatherForecastApp --> URL : 使用
+WeatherForecastApp --> URI : 使用
+WeatherForecastApp --> HttpURLConnection : 使用
+WeatherForecastApp --> BufferedReader : 使用
+WeatherForecastApp --> InputStreamReader : 使用
+WeatherForecastApp --> JSONArray : 使用
+WeatherForecastApp --> JSONObject : 使用
+WeatherForecastApp --> LocalDateTime : 使用
+WeatherForecastApp --> DateTimeFormatter : 使用
+WeatherForecastApp --> ArrayList : 使用
+WeatherForecastApp --> List : 使用
+
+@enduml

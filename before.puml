@@ -1,0 +1,8 @@
+@startuml
+
+class WeatherForecastApp {
+    - TARGET_URL : String
+    + main(args : String[]) : void
+}
+
+@enduml
